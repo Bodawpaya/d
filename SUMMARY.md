@@ -1,6 +1,6 @@
 # Summary
 
-* [Vim](vim.md)
+* [Vim](Vim.md)
 * [Ubuntu](ubuntu.md)
 * [Sublime](sublime.md)
 * [Bash](bash.md)
