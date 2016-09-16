@@ -3,7 +3,7 @@
 * [Vim](Vim.md)
 * [Ubuntu](Ubuntu.md)
 * [Sublime](Sublime.md)
-* [Bash](bash.md)
+* [Bash](Bash.md)
 * [MongoDB](Mondo.md)
 * SQL
 * Ubuntu Extra
