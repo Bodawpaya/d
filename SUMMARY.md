@@ -5,4 +5,5 @@
 * Sublime
 * Bash
 * MongoDB
+* SQL
 
