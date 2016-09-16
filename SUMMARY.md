@@ -5,6 +5,6 @@
 * [Sublime](Sublime.md)
 * [Bash](Bash.md)
 * [MongoDB](Mondo.md)
-* SQL
+* [SQL](Sql.md)
 * Ubuntu Extra
 
