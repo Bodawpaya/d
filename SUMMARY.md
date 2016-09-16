@@ -7,4 +7,5 @@
 * [MongoDB](Mondo.md)
 * [SQL](Sql.md)
 * [Ubuntu Extra](UbuntuExtra.md)
+* Angular2
 
