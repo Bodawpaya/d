@@ -1,4 +1,4 @@
-# [Installation(14.10)](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
+# [Installation(16.10)](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
 
 # Node, NPM
 - `sudo apt-get update`
