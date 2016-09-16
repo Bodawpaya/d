@@ -1,7 +1,7 @@
 # Summary
 
 * [Vim](Vim.md)
-* [Ubuntu](ubuntu.md)
+* [Ubuntu](Ubuntu.md)
 * [Sublime](sublime.md)
 * [Bash](bash.md)
 * [MongoDB](mondo.md)
