@@ -1,5 +1,5 @@
 # Summary
 
 * [Vim](vim.md)
-* Ubuntu
+* [Ubuntu](ubuntu.md)
 
