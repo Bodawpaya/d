@@ -2,7 +2,7 @@
 
 * [Vim](Vim.md)
 * [Ubuntu](Ubuntu.md)
-* [Sublime](sublime.md)
+* [Sublime](Sublime.md)
 * [Bash](bash.md)
 * [MongoDB](mondo.md)
 * SQL
