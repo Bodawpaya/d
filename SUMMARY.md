@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](SUMMERY.md)
+* [Introduction](README.md)
 * [Vim](Vim.md)
 * [Ubuntu](Ubuntu.md)
 * [Sublime](Sublime.md)
