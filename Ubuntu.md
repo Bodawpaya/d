@@ -5,3 +5,21 @@
 - `sudo apt-get install nodejs`
 - `ln -s /usr/bin/nodejs /usr/bin/node`
 - `sudo apt-get install npm`
+
+# Customize System Notification Timeout
+
+    sudo add-apt-repository ppa:leolik/leolik
+    sudo apt-get update
+    sudo apt-get install libnotify-bin 
+    sudo apt-get install notify-osd
+
+Restart the daemon
+    
+    pkill notify-osd
+
+Install NotifyOSD Configuration(GUI)
+
+    sudo add-apt-repository ppa:nilarimogard/webupd8
+    sudo apt-get update
+    sudo apt-get install notifyosdconfig
+
