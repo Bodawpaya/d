@@ -23,35 +23,41 @@ Browser ထဲမွာ run ဖို႕ build tool ေတြကိုသံု�
 	
 Component တစ္ခုမွာ `render` method တစ္ခုပါပါတယ္
 ဒီတိုင္းေလးစေရးပါမယ္ 
-	
-	var Button = React.createClass({
-	  render: function() {
-	    return (
-	      <a className="btn btn-default">I am a button! Click me!</a>
-	    );
-	  }
-	});
 
-	React.render(<Button />, document.getElementById('content'));
+```jsx	
+var Button = React.createClass({
+  render: function() {
+    return (
+      <a className="btn btn-default">I am a button! Click me!</a>
+    );
+  }
+});
+
+React.render(<Button />, document.getElementById('content'));
+```
 
 **render** method ကေန HTML[or]XML ကို **return** ျပန္ေပးရပါတယ္<br>
 *Note: element တစ္ခုထက္ပိုလာရင္ wrap လုပ္ေပးၿပီးမွ return ျပန္ဖို႕လိုပါတယ္*
 
 **ဒီလိုမလုပ္ပါနဲ႕** - 
 
-	return (
-	  <div>Test</div>
-	  <div>Test 2</div>
-	)
+```jsx
+return (
+  <div>Test</div>
+  <div>Test 2</div>
+)
+```
 
 **ဒီလိုလုပ္ပါ** - 
 
-	return (
-	  <div>
-	    <div>Test</div>
-	    <div>Test 2</div>
-	  </div>
-	);
+```jsx
+return (
+  <div>
+    <div>Test</div>
+    <div>Test 2</div>
+  </div>
+);
+```
 
 
 
