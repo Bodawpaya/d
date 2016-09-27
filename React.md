@@ -4,6 +4,7 @@
 
 - [OpenSoure Tutorials](https://github.com/vhf/free-programming-books/blob/master/javascript-frameworks-resources.md#react)
 
+
 1. render
 
 ## React Component
@@ -24,7 +25,7 @@ Browser ထဲမွာ run ဖို႕ build tool ေတြကိုသံု�
 Component တစ္ခုမွာ `render` method တစ္ခုပါပါတယ္
 ဒီတိုင္းေလးစေရးပါမယ္ 
 
-```jsx	
+```js	
 var Button = React.createClass({
   render: function() {
     return (
@@ -41,7 +42,7 @@ React.render(<Button />, document.getElementById('content'));
 
 **ဒီလိုမလုပ္ပါနဲ႕** - 
 
-```jsx
+```js
 return (
   <div>Test</div>
   <div>Test 2</div>
@@ -50,7 +51,7 @@ return (
 
 **ဒီလိုလုပ္ပါ** - 
 
-```jsx
+```js
 return (
   <div>
     <div>Test</div>
