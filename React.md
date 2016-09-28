@@ -38,7 +38,7 @@ ReactDOM.render(<Button />, document.getElementById('content'));
 ```
 
 **render** method ကေန HTML[or]XML ကို **return** ျပန္ေပးရပါတယ္<br>
-*Note: element တစ္ခုထက္ပိုလာရင္ wrap လုပ္ေပးၿပီးမွ return ျပန္ဖို႕လိုပါတယ္*
+> Note: element တစ္ခုထက္ပိုလာရင္ wrap လုပ္ေပးၿပီးမွ return ျပန္ဖို႕လိုပါတယ္
 
 **ဒီလိုမလုပ္ပါနဲ႕** - 
 
@@ -95,6 +95,28 @@ Result >>
 		<li data-reactid=".0.0">Hello</li>
 	</ul>
 </div>
+```
+
+> Note: prop  ကို value မပါပဲ pass လုပ္ရင္ React က boolean prop အျဖစ္သတ္မွတ္ပါတယ္
+
+```js
+// Parent
+return (
+      <ChildComponent checked />
+      )
+
+// Child
+componentDidMount() {
+	console.log(this.props.checked)  
+},
+render() {
+	return (
+		<div />
+	)
+}
+
+// Output
+//=> true
 ```
 
 - **{this.props.text}** ဆိုတာေလးက text ကို output ထုတ္ေပးပါတယ္၊
@@ -208,8 +230,44 @@ minify version နဲ႕ ခ်ိတ္ထားတယ္ ဆိုရင္ေ
 
 [ဒီမွာ သြားၾကည့္ပါ ေသခ်ာေပါက္သြားၾကည့္ပါ](https://facebook.github.io/react/docs/reusable-components.html#prop-validation)
 
+## children
 
+မူလ Componentထဲမွာပါတဲ **Content/SubComponent** ေတြကို this.props.children
+ကေန access လုပ္လို႕ရပါတယ္။
 
+```js
+var ParentComponent = React.createClass({
+    render() {
+        return (
+            <ChildComponent>
+              {this.props.children}
+            </ChildComponent>
+        );
+    }
+});
+
+var ChildComponent = React.createClass({
+    render() {
+        return (
+            <div>
+              <h1>I am a header!</h1>
+            </div>
+        );
+    }
+});
+
+ReactDOM.render(<ParentComponent />, document.getElementById('content'))
+```
+
+Output >>
+
+``html
+<div id="content">
+    <div data-reactroot="">
+        <h1>I am a header!</h1>
+    </div>
+</div>
+```
 
 
 
