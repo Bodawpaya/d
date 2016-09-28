@@ -26,3 +26,12 @@ then
 fi
 ' --tag-name-filter cat -- --branches --
 ```
+
+
+## Download single directory from a Github Repository
+
+Eg: 
+Repository URL: **https://github.com/lodash/lodash** 
+Folder: **/docs**
+
+	svn checkout https://github.com/lodash/lodash/trunk/docs
