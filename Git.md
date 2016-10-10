@@ -35,3 +35,13 @@ Repository URL: **https://github.com/lodash/lodash**
 Folder: **/docs**
 
 	svn checkout https://github.com/lodash/lodash/trunk/docs
+
+
+## Recover Deleted File From Commit
+
+	git rev-list -n 1 HEAD -- <file_path>
+	git checkout <deleting_commit>^ -- <file_path>
+
+## 	Git clone just the latest revision
+
+	git clone --depth=1 <remote_repo_url>
