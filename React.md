@@ -11,5 +11,6 @@
 
 ## Redux Tutorials(Posts)
 
+- [A Cartoon intro to react](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.jrly96gl8)
 - [Redux without profanity :heart:](https://tonyhb.gitbooks.io/redux-without-profanity/content/) 
 - [Full-Stack Redux Tutorial  - Tero Parviainen](https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#what-you-will-need)
