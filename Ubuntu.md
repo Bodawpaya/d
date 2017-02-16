@@ -20,3 +20,8 @@ Install NotifyOSD Configuration(GUI)
     sudo apt-get update
     sudo apt-get install notifyosdconfig
 
+
+# Inspect outgoing HTTP requests
+
+install wireshark
+sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/dumpcap
