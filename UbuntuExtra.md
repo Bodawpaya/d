@@ -14,4 +14,11 @@ $ bluetoothctl
 ```
 
 ## Extra Apps 
-`sudo apt-get install psensor`
+
+
+### Fav Apps
+
+- psensor(`sudo apt-get install psensor`)
+- mpv player('sudo apt-get install  mpv or gnome-mpv`)
+- copyq(`sudo apt-get install copyq`)
+- synapse(`sudo apt-get install synapse`
