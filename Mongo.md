@@ -1,5 +1,9 @@
 # Basic Usage - 3.2.3
 
+## Installation
+
+[Link](https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/)
+
 ## Commands
 
 - See Current Working Database - `db`
