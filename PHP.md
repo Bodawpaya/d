@@ -8,6 +8,8 @@ sudo apt install php-curl php-gd php-json php-mbstring php-mcrypt php-common php
 
 ```
 sudo apt install apache2 libapache2-mod-php
+sudo a2enmod rewrite
+/etc/init.d/apache2 restart
 ```
 
 ## PHPIZe
