@@ -1,4 +1,4 @@
-# Node
+# node
 
 ```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
@@ -6,20 +6,35 @@ nvm install node
 npm i bower vtop yarn webpack  -g
 ```
 
-# GIT
+# git
 ```
 sudo apt-get install git
 git config --global "$email"
- git config --global user.name "$username"
-
+git config --global user.name "$username"
 ```
+
+# Github
+```
+
+	cd && cd .ssh
+	ssh-keygen -t rsa -b 4096 -C "$email"
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/github_nayzawoo
+	cat github_nayzawoo.pub | xclip -selection clipboard
+
+	# Paste ssh-key on github ssh setting
+	# > https://github.com/settings/ssh
+
+	# Testing your SSH connection
+	ssh -T git@github.com
+ ```
 
 # rb
 ```
 sudo apt install rbenv
 ```
 
-## PHP
+# php
 ```
 sudo apt install php-curl php-gd php-json php-mbstring \
 php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
@@ -29,14 +44,14 @@ sudo a2enmod rewrite
 /etc/init.d/apache2 restart
 ```
 
-# Vhost
+# vhost
 ```
 cd /usr/local/bin
 sudo wget -O virtualhost https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost.sh
 sudo chmod +x virtualhost
 ```
 
-## COmposer
+# composer
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -46,7 +61,7 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
-# Vi
+# vi
 ```
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
@@ -55,7 +70,7 @@ sudo apt-get install neovim
 sudo apt-get install vim-gnome 
 ```
 
-## Ubuntu
+# Ubuntu
 ```
 sudo add-apt-repository ppa:noobslab/indicators
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
