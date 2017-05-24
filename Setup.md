@@ -1,8 +1,9 @@
-# NVM 
+# Node
 
 ```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 nvm install node
+npm i bower vtop yarn webpack  -g
 ```
 
 # GIT
