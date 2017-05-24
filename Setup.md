@@ -1,7 +1,7 @@
 # node
 
 ```
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install node
 npm i bower vtop yarn webpack  -g
 ```
@@ -15,18 +15,17 @@ git config --global user.name "$username"
 
 # Github
 ```
+cd && cd .ssh
+ssh-keygen -t rsa -b 4096 -C "$email"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github_nayzawoo
+cat github_nayzawoo.pub | xclip -selection clipboard
 
-	cd && cd .ssh
-	ssh-keygen -t rsa -b 4096 -C "$email"
-	eval "$(ssh-agent -s)"
-	ssh-add ~/.ssh/github_nayzawoo
-	cat github_nayzawoo.pub | xclip -selection clipboard
+# Paste ssh-key on github ssh setting
+# > https://github.com/settings/ssh
 
-	# Paste ssh-key on github ssh setting
-	# > https://github.com/settings/ssh
-
-	# Testing your SSH connection
-	ssh -T git@github.com
+# Testing your SSH connection
+ssh -T git@github.com
  ```
 
 # rb
