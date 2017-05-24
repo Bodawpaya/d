@@ -44,3 +44,26 @@ sudo apt-get install neovim
 sudo apt-get install vim-gnome 
 ```
 
+## Ubuntu
+```
+sudo add-apt-repository ppa:noobslab/indicators
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-add-repository ppa:numix/ppa
+sudo add-apt-repository ppa:flexiondotorg/albert
+
+
+sudo apt update
+
+sudo apt-get install numix-icon-theme numix-icon-theme-circle \
+unity-tweak-tool gnome-tweak-tool synapse copyq indicator-multiload  arc-theme docky
+```
+
+
+
+
+
+
+
+
