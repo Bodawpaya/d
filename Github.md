@@ -1,7 +1,7 @@
 # Add SSH keys
 
 	cd && cd .ssh
-	ssh-keygen -t rsa -b 4096 -C "nayzawoo.me@gmail.com"
+	ssh-keygen -t rsa -b 4096 -C "$email"
 	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/github_nayzawoo
 	cat github_nayzawoo.pub | xclip -selection clipboard
