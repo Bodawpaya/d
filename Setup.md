@@ -25,6 +25,13 @@ sudo a2enmod rewrite
 /etc/init.d/apache2 restart
 ```
 
+# Vhost
+```
+cd /usr/local/bin
+sudo wget -O virtualhost https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost.sh
+sudo chmod +x virtualhost
+```
+
 ## COmposer
 
 ```
