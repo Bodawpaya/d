@@ -33,11 +33,12 @@ ssh -T git@github.com
 sudo apt install rbenv
 ```
 
-# php
+# Web
 ```
 sudo apt install php-curl php-gd php-json php-mbstring \
 php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev \
+memcached \
 apache2 libapache2-mod-php \
 sudo a2enmod rewrite
 /etc/init.d/apache2 restart
