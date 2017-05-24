@@ -4,7 +4,25 @@
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 
-# sudo apt install rbenv
+# GIT
+```
+sudo apt-get install git
+```
+
+# rb
+```
+sudo apt install rbenv
+```
+
+## PHP
+```
+sudo apt install php-curl php-gd php-json php-mbstring \
+php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
+php-dev \
+apache2 libapache2-mod-php \
+sudo a2enmod rewrite
+/etc/init.d/apache2 restart
+```
 
 ## COmposer
 
@@ -15,3 +33,13 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+# Vi
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+sudo apt-get install vim-gnome 
+```
+
