@@ -1,10 +1,19 @@
+## Repos
+```
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:noobslab/indicators
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo add-apt-repository ppa:noobslab/apps
+sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt update
+```
+
 # node
 
-```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install node
 npm i bower vtop yarn webpack  -g
-```
 
 # git
 ```
@@ -41,6 +50,7 @@ php-dev \
 memcached \
 apache2 libapache2-mod-php \
 sudo a2enmod rewrite
+
 /etc/init.d/apache2 restart
 ```
 
@@ -63,23 +73,13 @@ sudo mv composer.phar /usr/local/bin/composer
 
 # vi
 ```
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt-get update
-sudo apt-get install neovim
-sudo apt-get install vim-gnome 
+sudo apt-get install software-properties-common neovim vim-gnome 
 ```
 
 # Ubuntu
 ```
-sudo add-apt-repository ppa:noobslab/indicators
-sudo add-apt-repository ppa:indicator-multiload/stable-daily
-sudo add-apt-repository ppa:noobslab/apps
-sudo add-apt-repository ppa:noobslab/themes
-sudo add-apt-repository ppa:noobslab/icons
 sudo apt-add-repository ppa:numix/ppa
    
-sudo apt update
 
 sudo apt-get install numix-icon-theme numix-icon-theme-circle \
 unity-tweak-tool gnome-tweak-tool synapse copyq \
