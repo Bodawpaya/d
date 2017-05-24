@@ -9,6 +9,9 @@ npm i bower vtop yarn webpack  -g
 # GIT
 ```
 sudo apt-get install git
+git config --global "$email"
+ git config --global user.name "$username"
+
 ```
 
 # rb
