@@ -17,9 +17,9 @@ nvm install node
 npm i bower vtop yarn webpack  -g
 ```
 
-# git
+# Version Control
 ```
-sudo apt-get install git
+sudo apt-get install subversion git
 git config --global "$email"
 git config --global user.name "$username"
 ```
