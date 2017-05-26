@@ -86,6 +86,7 @@ sudo apt-add-repository ppa:numix/ppa
 sudo apt-get install numix-icon-theme numix-icon-theme-circle \
 unity-tweak-tool gnome-tweak-tool synapse copyq \
 indicator-multiload  arc-theme docky xdman \
+flatabulous-theme
 keepassx vlc
 ```
 
