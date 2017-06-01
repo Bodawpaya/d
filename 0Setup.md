@@ -81,9 +81,8 @@ sudo apt-get install software-properties-common neovim vim-gnome
 # Ubuntu
 ```
 sudo apt-add-repository ppa:numix/ppa
-   
 
-sudo apt-get install numix-icon-theme numix-icon-theme-circle \
+sudo apt-get install build-essential numix-icon-theme numix-icon-theme-circle \
 unity-tweak-tool gnome-tweak-tool synapse copyq \
 indicator-multiload  arc-theme docky xdman \
 flatabulous-theme
