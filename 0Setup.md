@@ -46,7 +46,7 @@ sudo apt install rbenv
 
 # Web
 ```
-sudo apt install php-curl php-gd php-json php-mbstring \
+sudo apt install curl php-curl php-gd php-json php-mbstring \
 php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev php-bcmath \
 memcached \
