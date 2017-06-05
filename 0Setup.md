@@ -22,6 +22,7 @@ npm i bower vtop yarn webpack  -g
 sudo apt-get install subversion git
 git config --global "$email"
 git config --global user.name "$username"
+git config credential.helper 'cache --timeout=10800'
 ```
 
 # Github
