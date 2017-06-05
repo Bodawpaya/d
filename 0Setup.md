@@ -14,7 +14,7 @@ sudo apt update
 ```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install node
-npm i bower vtop yarn webpack  -g
+npm i bower vtop yarn webpack npm-check-updates  -g
 ```
 
 # Version Control
