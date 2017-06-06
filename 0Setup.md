@@ -51,7 +51,7 @@ sudo apt install curl php-curl php-gd php-json php-mbstring \
 php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev php-bcmath \
 memcached \
-apache2 libapache2-mod-php \
+apache2 libapache2-mod-php
 sudo a2enmod rewrite
 
 /etc/init.d/apache2 restart
