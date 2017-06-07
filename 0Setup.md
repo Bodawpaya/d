@@ -87,6 +87,7 @@ sudo apt-get install build-essential numix-icon-theme numix-icon-theme-circle \
 unity-tweak-tool gnome-tweak-tool synapse copyq \
 indicator-multiload  arc-theme docky xdman \
 flatabulous-theme activity-log-manager \
+python-dev python3-dev \
 keepassx vlc
 ```
 
