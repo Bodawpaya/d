@@ -57,6 +57,13 @@ sudo a2enmod rewrite
 /etc/init.d/apache2 restart
 ```
 
+# Nginx
+
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
+https://www.digitalocean.com/community/tutorials/how-to-install-laravel-with-an-nginx-web-server-on-ubuntu-14-04
+```
+
 # vhost
 ```
 cd /usr/local/bin
