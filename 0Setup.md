@@ -1,3 +1,8 @@
+## Init
+```
+apt install software-properties-common python-software-properties
+```
+
 ## Repos
 ```
 sudo add-apt-repository ppa:neovim-ppa/stable
