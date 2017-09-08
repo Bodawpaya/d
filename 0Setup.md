@@ -88,7 +88,7 @@ sudo mv composer.phar /usr/local/bin/composer
 
 # vi
 ```
-sudo apt-get install software-properties-common neovim vim-gnome 
+sudo apt-get install neovim vim-gnome 
 ```
 
 # Ubuntu
