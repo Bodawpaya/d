@@ -60,6 +60,9 @@ apache2 libapache2-mod-php or libapache2-mod-php7.0
 sudo a2enmod rewrite
 
 /etc/init.d/apache2 restart
+
+
+sudo apt install beanstalkd
 ```
 
 # Nginx
