@@ -63,6 +63,8 @@ sudo a2enmod rewrite
 
 
 sudo apt install beanstalkd
+sudo apt-get install supervisor
+
 ```
 
 # Nginx
