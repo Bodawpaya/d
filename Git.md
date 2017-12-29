@@ -45,3 +45,15 @@ Folder: **/docs**
 ## 	Git clone just the latest revision
 
 	git clone --depth=1 <remote_repo_url>
+	
+	
+## git completion on Mac
+
+```
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+```
+```bash
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+```
