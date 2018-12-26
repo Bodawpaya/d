@@ -25,3 +25,7 @@ Install NotifyOSD Configuration(GUI)
 
 install wireshark
 sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/dumpcap
+
+# setup timezone
+
+> dpkg-reconfigure tzdata
