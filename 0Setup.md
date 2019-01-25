@@ -108,8 +108,11 @@ python-dev python3-dev \
 keepassx vlc
 ```
 
-https://github.com/anmoljagetia/Flatabulous
-
+```
+sudo add-apt-repository ppa:system76/pop
+sudo apt update
+sudo apt install pop-theme
+```
 
 
 ## Tweak
