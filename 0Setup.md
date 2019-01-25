@@ -53,7 +53,7 @@ sudo apt install rbenv
 # Web
 ```
 sudo apt install curl php-curl php-gd php-json php-mbstring \
-php-mcrypt php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
+php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev php-bcmath \
 memcached \
 apache2 libapache2-mod-php or libapache2-mod-php7.0 
