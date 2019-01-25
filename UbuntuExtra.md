@@ -22,8 +22,3 @@ $ bluetoothctl
 - mpv player('sudo apt-get install  mpv or gnome-mpv`)
 - copyq(`sudo apt-get install copyq`)
 - synapse(`sudo apt-get install synapse`)
-
-### Indicator
-
-- sudo apt-get install indicator-multiload
-
