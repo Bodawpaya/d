@@ -14,3 +14,4 @@ Tips
 ----
 
 - RecyclerView item onClick (https://stackoverflow.com/questions/24471109/recyclerview-onclick/26196831#26196831)
+- Simple RecyclerView Divider(https://gist.github.com/polbins/e37206fbc444207c0e92)
