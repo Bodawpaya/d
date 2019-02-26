@@ -57,7 +57,7 @@ https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-
 ```
 sudo apt install mysql-server
 sudo mysql_secure_installation
-sudo apt install curl php-curl php-gd php-json php-mbstring \
+sudo apt install curl php-curl php-gd php-imagick php-json php-mbstring \
 php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev php-bcmath \
 memcached \
