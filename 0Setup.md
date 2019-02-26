@@ -55,6 +55,7 @@ https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-
 
 # Web
 ```
+sudo apt install redis-server
 sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo apt install curl php-curl php-gd php-imagick php-json php-mbstring \
