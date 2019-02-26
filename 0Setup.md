@@ -50,8 +50,13 @@ ssh -T git@github.com
 sudo apt install rbenv
 ```
 
+# SSH
+https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+
 # Web
 ```
+sudo apt install mysql-server
+sudo mysql_secure_installation
 sudo apt install curl php-curl php-gd php-json php-mbstring \
 php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
 php-dev php-bcmath \
