@@ -125,4 +125,14 @@ sudo apt install pop-theme
 [zeitgeist-fts](https://askubuntu.com/questions/339212/zeitgeist-fts-always-using-a-lot-of-memory)
 
 
+## Cert
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot python-certbot-nginx 
+```
+
 
