@@ -7,6 +7,8 @@ https://nathanleclaire.com/blog/2014/08/09/dont-get-bitten-by-pointer-vs-non-poi
 
 ## server
 
+/etc/systemd/system/myapp.service
+
 ```
 [Unit]
 Description=Go server
