@@ -11,3 +11,16 @@
 
 	# Testing your SSH connection
 	ssh -T git@github.com
+
+## run agent
+
+
+```
+eval "$(ssh-agent -s)"
+vim ~/.ssh/config
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+```
