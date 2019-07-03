@@ -57,3 +57,10 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 ```
+
+## Global .gitignore file
+
+```
+vim ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
