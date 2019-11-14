@@ -17,6 +17,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew install git-extras
 brew cask install macpass
 brew cask install vlc
+brew install htop
+brew cask install gimp
 ```
 # tap to click
 sys pref > trackpad 
@@ -32,3 +34,8 @@ sys pref > trackpad
 
 - `Preferences` > `Keyboards` > `Shortcuts Tab` 
   - `Full Keyboard Access` to `"All controls"`
+
+
+### Apps
+
+phpstorm,androidstudio,subl,code,libreoffice,gimp,chrome,firefox,neovim,gitkraken
