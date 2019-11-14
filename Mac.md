@@ -19,6 +19,16 @@ brew cask install macpass
 brew cask install vlc
 brew install htop
 brew cask install gimp
+# composer
+# https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
+export PATH=~/.composer/vendor/bin:$PATH
+brew install php
+composer global require laravel/valet
+# go
+# https://golang.org/dl/
+
+#node
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
 # tap to click
 sys pref > trackpad 
@@ -39,3 +49,22 @@ sys pref > trackpad
 ### Apps
 
 phpstorm,androidstudio,subl,code,libreoffice,gimp,chrome,firefox,neovim,gitkraken
+bandwidth+,
+
+### Faster Dock
+
+```bash
+defaults write com.apple.dock autohide-time-modifier -float 0.15;killall Dock
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+
+# reverse
+defaults delete com.apple.dock autohide-time-modifier;killall Dock
+defaults delete com.apple.dock autohide-delay; killall Dock
+```
+
+### faster key repeate
+
+```
+#disable shits
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
