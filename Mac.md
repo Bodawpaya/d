@@ -22,10 +22,27 @@ export PATH=~/.composer/vendor/bin:$PATH
 brew install php
 composer global require laravel/valet
 # go
-# https://golang.org/dl/
+brew install golang
+export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
+brew install vim
+brew install mysql
+brew services start mysql
 
 #node
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+
+#php-ext
+
+brew install pkg-config
+brew tap josegonzalez/php
+brew install imagemagick
+pecl install imagick
+sudo pecl install grpc
+
 ```
 # tap to click
 sys pref > trackpad 
@@ -46,7 +63,7 @@ sys pref > trackpad
 ### Apps
 
 phpstorm,androidstudio,subl,code,libreoffice,gimp,chrome,firefox,neovim,gitkraken
-bandwidth+,
+bandwidth+, skype,dbraver
 
 ### Faster Dock
 
