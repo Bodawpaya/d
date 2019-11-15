@@ -12,6 +12,10 @@ brew install wget
 brew install thefuck
 brew cask install iterm2
 brew install git-extras
+brew install git bash-completion
+## .bash_profile
+## export CLICOLOR=1
+
 brew cask install macpass
 brew cask install vlc
 brew install htop
