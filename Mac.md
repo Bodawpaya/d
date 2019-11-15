@@ -13,6 +13,7 @@ brew install thefuck
 brew cask install iterm2
 brew install git-extras
 brew install git bash-completion
+brew install bash-git-prompt
 ## .bash_profile
 ## export CLICOLOR=1
 brew install lazygit
