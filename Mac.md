@@ -15,6 +15,7 @@ brew install git-extras
 brew install git bash-completion
 ## .bash_profile
 ## export CLICOLOR=1
+brew install lazygit
 
 brew cask install macpass
 brew cask install vlc
