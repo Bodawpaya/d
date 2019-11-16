@@ -22,6 +22,7 @@ brew cask install macpass
 brew cask install vlc
 brew install htop
 brew cask install gimp
+brew install cmake gcc
 # composer
 # https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
 export PATH=~/.composer/vendor/bin:$PATH
