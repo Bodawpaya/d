@@ -89,3 +89,6 @@ defaults delete com.apple.dock autohide-delay; killall Dock
 #disable shits
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
+
+
+https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
