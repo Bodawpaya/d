@@ -24,3 +24,9 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
 ```
+
+## Cache Auth
+
+```
+git config --global credential.helper store
+```
