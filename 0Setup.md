@@ -59,7 +59,7 @@ sudo apt install redis-server
 sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo apt install curl php-curl php-gd php-imagick php-json php-mbstring \
-php-common php-mysql php-xml php-mongodb php-memcached zip unzip \
+php-common php-mysql php-xml php-fpm zip unzip \
 php-dev php-bcmath \
 memcached \
 apache2 libapache2-mod-php or libapache2-mod-php7.0 
